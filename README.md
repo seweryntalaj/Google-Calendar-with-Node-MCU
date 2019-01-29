@@ -16,6 +16,16 @@ Simple IoT device that takes events from Google Calendar and displays them on LC
 1. ArduinoIDE
 2. Google Account
 
+**HOW IT WORKS:**
+1. Device connects with WiFi getting time from router and displays it on LCD, refreshing each 5 seconds.
+2. Device connects with GoogleScript, which then gets events from your Google Calendar.
+3. GoogleScript retrieves events scheduled for current day and sends it to NodeMCU, which displays it on LCD.
+
+**TO IMPROVE:**
+1. Titles of events cannot be longer than 20 chars long, otherwise it will be cut to 17 chars + ellipsis;
+2. Displaying title of more than one event at a time;
+
+
 No events scheduled:
 ![noevents](https://user-images.githubusercontent.com/34771956/51911687-c82ce300-23d2-11e9-97c0-541c6eea430f.png)
 ![noevents1](https://user-images.githubusercontent.com/34771956/51911692-ca8f3d00-23d2-11e9-9e01-2919f6c77d0f.jpg)
