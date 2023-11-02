@@ -1,7 +1,7 @@
 /* Event calendar display using Google Calendar and Google scripts for NODE-MCU & 20x4 LCD 
-   Created by Seweryn Talaj, 2018  github.com/Seweryn91
+   Created by Seweryn Talaj, 2018  https://github.com/seweryntalaj https://seweryntalaj.com
    
-   Based on code by Daniel Willi  github.com/wilda17:
+   Based on code by Daniel Willi  github.com/wilda17 :
    https://github.com/wilda17/ESP8266-Google-Calendar-Arduino
    
    */
