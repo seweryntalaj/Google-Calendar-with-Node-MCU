@@ -165,6 +165,6 @@ void printOnLCD(int col, int row, String data) {
 
 void displayAuthor(int col) {
   lcd.setCursor(0, col);
-  lcd.print("github.com/Seweryn91");
+  lcd.print("GH: seweryntalaj");
 }
 
